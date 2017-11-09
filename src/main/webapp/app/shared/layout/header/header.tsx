@@ -87,7 +87,7 @@ export class Header extends React.Component<IHeaderProps, { menuOpen: boolean }>
         {this.renderDevRibbon()}
         <LoadingBar className="loading-bar"/>
         <Navbar dark expand="sm" fixed="top" className="jh-navbar">
-          <NavbarToggler onClick={this.toggleMenu} />
+          <NavbarToggler aria-label="Menu" onClick={this.toggleMenu} />
           <NavbarBrand tag={Link} to="/" className="brand-logo">
             <BrandIcon />
             <span className="brand-title"><Translate contentKey="global.title">Devoxx</Translate></span>

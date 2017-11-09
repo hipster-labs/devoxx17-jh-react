@@ -121,5 +121,8 @@
     "test:start": "karma start src/test/javascript/karma.conf.js",
     "test:watch": "yarn test:ci -- --watch",
     "postinstall": "node node_modules/phantomjs-prebuilt/install.js"
+  },
+  "resolutions": {
+    "@types/react": "16.0.19"
   }
 }
